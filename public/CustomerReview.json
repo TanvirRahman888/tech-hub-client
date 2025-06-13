@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "rating": 5,
+    "review": "Absolutely love this product! Exceeded expectations.",
+    "date": "2025-06-10",
+    "product": "Wireless Earbuds"
+  },
+  {
+    "id": 2,
+    "name": "Michael Smith",
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "rating": 4,
+    "review": "Great quality and fast shipping. Would buy again.",
+    "date": "2025-06-08",
+    "product": "Smart LED Light Strip"
+  },
+  {
+    "id": 3,
+    "name": "Sophia Lee",
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "rating": 5,
+    "review": "Stylish and functional. Worth every penny!",
+    "date": "2025-06-07",
+    "product": "Stainless Steel Cookware Set"
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "rating": 3,
+    "review": "Good product, but packaging was a bit damaged.",
+    "date": "2025-06-05",
+    "product": "Electric Toothbrush"
+  },
+  {
+    "id": 5,
+    "name": "Emily Brown",
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "rating": 4,
+    "review": "Very useful and easy to use. My kids love it too!",
+    "date": "2025-06-04",
+    "product": "Bluetooth Speaker"
+  },
+  {
+    "id": 6,
+    "name": "James Wilson",
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "rating": 5,
+    "review": "Top-notch build quality and performance.",
+    "date": "2025-06-03",
+    "product": "Laptop Stand"
+  },
+  {
+    "id": 7,
+    "name": "Ava Martinez",
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "rating": 4,
+    "review": "Really happy with my purchase. Looks premium!",
+    "date": "2025-06-02",
+    "product": "Portable Charger"
+  },
+  {
+    "id": 8,
+    "name": "William Davis",
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "rating": 2,
+    "review": "Not as powerful as I expected, but okay for the price.",
+    "date": "2025-06-01",
+    "product": "Mini Hand Vacuum"
+  },
+  {
+    "id": 9,
+    "name": "Olivia Garcia",
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "rating": 5,
+    "review": "Beautiful design and works flawlessly!",
+    "date": "2025-05-30",
+    "product": "Smart Desk Lamp"
+  },
+  {
+    "id": 10,
+    "name": "Liam Anderson",
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "rating": 4,
+    "review": "Delivered on time and works as expected.",
+    "date": "2025-05-28",
+    "product": "Phone Gimbal Stabilizer"
+  }
+]

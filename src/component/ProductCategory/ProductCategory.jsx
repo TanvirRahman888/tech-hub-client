@@ -16,7 +16,7 @@ const ProductCategory = () => {
         <div className="my-6">
       <h2 className="text-2xl font-bold mb-4 text-center">Check Products by Categories</h2>
       <hr className="mb-4" />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {categories.map((cat, index) => (
           <div key={index} className="border border-blue-400 p-4 rounded shadow bg-blue-100 hover:shadow-lg hover:bg-blue-200 transition">
             <img src={cat.image} alt={cat.category} className="w-full h-40 object-cover mb-2 rounded" />
