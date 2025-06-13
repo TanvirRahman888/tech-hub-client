@@ -1,0 +1,77 @@
+[
+  {
+    "category": "Electronics",
+    "image": "https://source.unsplash.com/400x300/?electronics",
+    "description": "Latest gadgets and smart devices for daily use"
+  },
+  {
+    "category": "Fashion",
+    "image": "https://source.unsplash.com/400x300/?fashion",
+    "description": "Trendy clothing and accessories for all seasons"
+  },
+  {
+    "category": "Home Appliances",
+    "image": "https://source.unsplash.com/400x300/?home,appliances",
+    "description": "Modern appliances to upgrade your home life"
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "image": "https://source.unsplash.com/400x300/?beauty,skincare",
+    "description": "Skin, hair, and wellness products you'll love"
+  },
+  {
+    "category": "Books",
+    "image": "https://source.unsplash.com/400x300/?books",
+    "description": "Fiction, non-fiction, academic, and more books"
+  },
+  {
+    "category": "Toys & Games",
+    "image": "https://source.unsplash.com/400x300/?toys",
+    "description": "Fun games and toys for kids of all ages"
+  },
+  {
+    "category": "Groceries",
+    "image": "https://source.unsplash.com/400x300/?groceries",
+    "description": "Everyday essentials, fresh and packaged foods"
+  },
+  {
+    "category": "Sports & Outdoors",
+    "image": "https://source.unsplash.com/400x300/?sports,outdoors",
+    "description": "Gear and apparel for active lifestyles"
+  },
+  {
+    "category": "Health & Wellness",
+    "image": "https://source.unsplash.com/400x300/?health,wellness",
+    "description": "Supplements, fitness, and wellness products"
+  },
+  {
+    "category": "Pet Supplies",
+    "image": "https://source.unsplash.com/400x300/?pets",
+    "description": "Food, toys, and care items for your pets"
+  },
+  {
+    "category": "Automotive",
+    "image": "https://source.unsplash.com/400x300/?automotive",
+    "description": "Car accessories, tools, and maintenance gear"
+  },
+  {
+    "category": "Office Supplies",
+    "image": "https://source.unsplash.com/400x300/?office,supplies",
+    "description": "Stationery, chairs, desks, and office tools"
+  },
+  {
+    "category": "Jewelry",
+    "image": "https://source.unsplash.com/400x300/?jewelry",
+    "description": "Elegant rings, necklaces, and bracelets"
+  },
+  {
+    "category": "Footwear",
+    "image": "https://source.unsplash.com/400x300/?shoes,footwear",
+    "description": "Shoes and sandals for every style and need"
+  },
+  {
+    "category": "Furniture",
+    "image": "https://source.unsplash.com/400x300/?furniture",
+    "description": "Comfortable and modern furniture for home"
+  }
+]
