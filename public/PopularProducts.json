@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Wireless Bluetooth Headphones",
+    "category": "Electronics",
+    "shortDescription": "Crisp sound & long battery life",
+    "description": "Over-ear headphones with noise-cancellation.",
+    "fullDescription": "These wireless Bluetooth headphones deliver exceptional audio quality and deep bass. With up to 30 hours of battery life, they're ideal for travel, work, and play.",
+    "price": 89.99,
+    "image": "https://plus.unsplash.com/premium_photo-1679513691485-711d030f7e94?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Smart Fitness Watch",
+    "category": "Wearables",
+    "shortDescription": "Track your steps & heart rate",
+    "description": "Fitness tracker with heart rate and sleep monitor.",
+    "fullDescription": "Track your daily activity, monitor sleep patterns, and receive call/text notifications with this stylish and waterproof fitness watch.",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1532435109783-fdb8a2be0baa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "4K Ultra HD Smart TV",
+    "category": "Home Entertainment",
+    "shortDescription": "Cinematic 4K experience",
+    "description": "Smart TV with built-in apps and voice control.",
+    "fullDescription": "Enjoy ultra-crisp visuals with this 55-inch 4K smart TV. Comes preloaded with Netflix, YouTube, and more. Supports screen mirroring and voice assistant.",
+    "price": 399.99,
+    "image": "https://images.unsplash.com/photo-1601944179066-29786cb9d32a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Ergonomic Office Chair",
+    "category": "Furniture",
+    "shortDescription": "Comfortable and supportive",
+    "description": "Mesh back office chair with lumbar support.",
+    "fullDescription": "Stay productive and pain-free with this ergonomic chair featuring adjustable armrests, breathable mesh, and built-in lumbar support.",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1688578735427-994ecdea3ea4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Gaming Mechanical Keyboard",
+    "category": "Gaming",
+    "shortDescription": "RGB lighting & fast response",
+    "description": "Backlit mechanical keyboard with blue switches.",
+    "fullDescription": "Take your gaming to the next level with this mechanical keyboard. Features anti-ghosting keys, customizable RGB lighting, and satisfying tactile feedback.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1656711081969-9d16ebc2d210?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Portable Projector",
+    "category": "Gadgets",
+    "shortDescription": "Movie nights anywhere",
+    "description": "Mini projector for home or outdoor use.",
+    "fullDescription": "Turn any wall into a cinema screen with this portable projector. Features HDMI/USB inputs, built-in speaker, and up to 120-inch display.",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1638154320403-1bc308a01398?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Noise Cancelling Earbuds",
+    "category": "Audio",
+    "shortDescription": "Crystal clear sound on the go",
+    "description": "Compact earbuds with ANC and touch controls.",
+    "fullDescription": "Enjoy immersive sound with these wireless earbuds. Active noise cancellation, Bluetooth 5.0, and up to 8 hours playtime on a single charge.",
+    "price": 49.99,
+    "image": "https://plus.unsplash.com/premium_photo-1723478486546-83ea7cf40e1b?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Smart LED Light Strip",
+    "category": "Home Automation",
+    "shortDescription": "Sync with music or apps",
+    "description": "LED light strip controlled via phone or voice.",
+    "fullDescription": "Create ambiance with these colorful LED strips. Compatible with Alexa and Google Home. Features music sync, timer, and millions of color options.",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1539460769596-bd6da7743293?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Stainless Steel Cookware Set",
+    "category": "Kitchen",
+    "shortDescription": "Premium non-stick performance",
+    "description": "10-piece durable cookware set with glass lids.",
+    "fullDescription": "This high-quality stainless steel cookware set includes pots and pans with heat-resistant handles and tempered glass lids. Oven and dishwasher safe.",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1646318895419-efa88b958218?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Electric Toothbrush",
+    "category": "Personal Care",
+    "shortDescription": "Deep clean with smart timer",
+    "description": "Rechargeable toothbrush with multiple modes.",
+    "fullDescription": "Improve your oral hygiene with this electric toothbrush. Includes a 2-minute smart timer, pressure sensor, and 3 brush modes.",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1553091844-4204b59e3661?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Smartphone Tripod Stand",
+    "category": "Photography",
+    "shortDescription": "Perfect for vlogging & selfies",
+    "description": "Flexible tripod for mobile photography.",
+    "fullDescription": "Capture stable videos and photos with this flexible tripod. Features adjustable legs, Bluetooth remote, and universal phone mount.",
+    "price": 21.99,
+    "image": "https://images.unsplash.com/photo-1669255344189-fc6a34d42f3a?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Laptop Backpack with USB",
+    "category": "Accessories",
+    "shortDescription": "Stylish & functional",
+    "description": "Water-resistant backpack with charging port.",
+    "fullDescription": "This anti-theft backpack features multiple compartments, a USB charging port, padded laptop sleeve, and ergonomic design.",
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1667411424771-cadd97150827?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Air Purifier with HEPA Filter",
+    "category": "Home",
+    "shortDescription": "Breathe clean air",
+    "description": "Removes allergens, smoke & odors.",
+    "fullDescription": "Clean up your indoor air with this HEPA air purifier. Filters out dust, pollen, smoke, and pet dander. Ideal for bedrooms and offices.",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1653543362916-f7df09926982?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Electric Standing Desk",
+    "category": "Furniture",
+    "shortDescription": "Adjust height with a button",
+    "description": "Motorized desk for sitting or standing.",
+    "fullDescription": "This standing desk helps improve posture and productivity. Smooth motorized height adjustment with memory presets.",
+    "price": 279.99,
+    "image": "https://images.unsplash.com/photo-1642260460129-bef801920b70?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Robot Vacuum Cleaner",
+    "category": "Smart Home",
+    "shortDescription": "Cleans while you relax",
+    "description": "Smart robot with mapping and auto-charge.",
+    "fullDescription": "Let this robot vacuum do the work. Features smart room mapping, scheduled cleaning, and auto return-to-dock charging.",
+    "price": 229.99,
+    "image": "https://images.unsplash.com/photo-1603618090561-412154b4bd1b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+
+ 
+]
