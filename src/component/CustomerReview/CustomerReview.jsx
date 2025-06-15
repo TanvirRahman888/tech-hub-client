@@ -16,7 +16,7 @@ const CustomerReview = () => {
             .then(res => res.json())
             .then(data => setReviews(data));
     }, []);
-    console.log(reviews);
+ 
     return (
         <div className="py-10 px-4">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">What Our Customers Say</h2>
@@ -59,10 +59,11 @@ const CustomerReview = () => {
                                 {Array.from({ length: review.rating }, (_, i) => (
                                     <svg
                                         key={i}
-                                        className="w-5 h-5 text-yellow-400 fill-current"
+                                        className="w-5 h-5 text-yellow-500 fill-current"
                                         viewBox="0 0 20 20"
                                     >
-                                        <path d="M10 15l-5.878 3.09L5.67 12.18.79 7.91l6.09-.89L10 1l3.12 6.02 6.09.89-4.88 4.27 1.548 5.91z" />
+                                        {/* <path d="M10 15l-5.878 3.09L5.67 12.18.79 7.91l6.09-.89L10 1l3.12 6.02 6.09.89-4.88 4.27 1.548 5.91z" /> */}
+                                        <FaStar></FaStar>
                                     </svg>
                                 ))}
                             </div>

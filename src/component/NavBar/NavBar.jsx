@@ -1,8 +1,13 @@
 'use client';
+import { AuthContext } from '@/app/provider/AuthProvider';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useContext } from 'react';
+
 
 const NavBar = () => {
+
+
   const pathname = usePathname();
 
   const navItems = [
@@ -14,6 +19,18 @@ const NavBar = () => {
 
   const isActive = (href) => pathname === href;
 
+  const { user, logOut } = useContext(AuthContext)
+  const handelLogout = () => {
+    logOut()
+      .then(() => {
+        console.log("Sign-out successful.");
+      }).catch((error) => {
+        console.error(error)
+      });
+
+  }
+
+
   return (
     <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -22,9 +39,13 @@ const NavBar = () => {
         </Link>
 
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Get started
-          </button>
+
+          {user ? <div className='flex gap-3 items-center'><h3> {user?.email} </h3> <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={handelLogout}> Log Out</button>
+          </div> :
+            <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              <Link href={"/register"}>Get started</Link>
+            </button>
+          }
         </div>
 
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
@@ -33,11 +54,10 @@ const NavBar = () => {
               <li key={name}>
                 <Link
                   href={href}
-                  className={`block py-2 px-3 rounded-sm md:p-0 ${
-                    isActive(href)
-                      ? 'text-white bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500'
-                      : 'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
-                  }`}
+                  className={`block py-2 px-3 rounded-sm md:p-0 ${isActive(href)
+                    ? 'text-white bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500'
+                    : 'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
+                    }`}
                 >
                   {name}
                 </Link>

@@ -10,6 +10,7 @@
     "postinstall": "flowbite-react patch"
   },
   "dependencies": {
+    "firebase": "^11.9.1",
     "flowbite-react": "^0.11.8",
     "next": "15.3.3",
     "react": "^19.0.0",

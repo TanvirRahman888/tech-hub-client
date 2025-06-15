@@ -19,7 +19,7 @@ const PopularProducts = () => {
       .then(res => res.json())
       .then(data => setPopularProducts(data))
   }, [])
-  console.log(popularProducts);
+ 
 
   return (
     <div>
