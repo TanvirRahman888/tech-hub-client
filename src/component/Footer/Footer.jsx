@@ -49,10 +49,10 @@ export default function Footer() {
           </form>
 
           <div className="flex space-x-4 mt-4">
-            <Link href="https://facebook.com" target="_blank"><i className="fab fa-facebook-f hover:text-blue-500">Facebook</i></Link>
+            <Link href="https://facebook.com" target="_blank"><i className="fab fa-facebook-f hover:text-blue-500">FB</i></Link>
             <Link href="https://twitter.com" target="_blank"><i className="fab fa-twitter hover:text-blue-500">X</i></Link>
             <Link href="https://instagram.com" target="_blank"><i className="fab fa-instagram hover:text-blue-500">IG</i></Link>
-            <Link href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in hover:text-blue-500">LinkedIn</i></Link>
+            <Link href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in hover:text-blue-500">LI</i></Link>
           </div>
         </div>
       </div>
