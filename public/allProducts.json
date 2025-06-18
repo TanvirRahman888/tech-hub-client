@@ -1,0 +1,502 @@
+[
+  {
+    "pid": "P001",
+    "name": "Organic Green Tea Blend",
+    "category": "Health & Wellness",
+    "shortDescription": "Antioxidant-rich organic green tea.",
+    "description": "Boost your immune system with this natural green tea.",
+    "fullDescription": "Our Organic Green Tea Blend is sourced from the finest tea leaves, providing a refreshing and healthy beverage. It's packed with antioxidants and offers a gentle energy boost without the jitters. Enjoy hot or cold for a revitalizing experience.",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1542838380-49651a56e2e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P002",
+    "name": "Adjustable Dumbbell Set",
+    "category": "Sports & Outdoors",
+    "shortDescription": "Versatile weights for home workouts.",
+    "description": "Easily adjust weight for various exercises.",
+    "fullDescription": "This Adjustable Dumbbell Set is perfect for home gyms, offering a wide range of weight options in a compact design. Quickly change weights with a simple dial mechanism, allowing for efficient workouts and saving space. Durable construction ensures long-lasting use.",
+    "price": 189.00,
+    "image": "https://images.unsplash.com/photo-1577221084216-b631d8e6a14e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P003",
+    "name": "Artisan Sourdough Bread",
+    "category": "Groceries",
+    "shortDescription": "Freshly baked, crusty sourdough.",
+    "description": "Hand-crafted with natural fermentation.",
+    "fullDescription": "Our Artisan Sourdough Bread is baked fresh daily using traditional methods. Its characteristic tangy flavor and chewy crumb are a result of a long, natural fermentation process. Perfect for sandwiches or alongside your favorite meal.",
+    "price": 6.50,
+    "image": "https://images.unsplash.com/photo-1598583492520-2c70a8d4a6f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P004",
+    "name": "Wooden Building Blocks Set",
+    "category": "Toys & Games",
+    "shortDescription": "Classic educational toy for kids.",
+    "description": "Encourages creativity and motor skills.",
+    "fullDescription": "This Wooden Building Blocks Set includes various shapes and sizes, allowing children to build countless structures. Made from sustainable wood and non-toxic paints, it's a safe and durable toy that fosters imagination, problem-solving, and fine motor development.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1563858004558-52c1e28987b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P005",
+    "name": "The Great Gatsby",
+    "category": "Books",
+    "shortDescription": "Classic American novel by F. Scott Fitzgerald.",
+    "description": "A timeless story of love, ambition, and the American Dream.",
+    "fullDescription": "F. Scott Fitzgerald's 'The Great Gatsby' is a quintessential American novel, set in the roaring twenties. It explores themes of idealism, social upheaval, and the elusive nature of the American Dream through the eyes of Nick Carraway and the enigmatic Jay Gatsby. A must-read for any literature enthusiast.",
+    "price": 9.99,
+    "image": "https://images.unsplash.com/photo-1532435109783-fdb8a2be0baa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P006",
+    "name": "Hydrating Facial Cleanser",
+    "category": "Beauty & Personal Care",
+    "shortDescription": "Gentle cleanser for all skin types.",
+    "description": "Removes impurities without stripping moisture.",
+    "fullDescription": "This Hydrating Facial Cleanser is formulated with natural extracts to gently remove dirt, oil, and makeup without leaving your skin feeling tight or dry. It's suitable for all skin types, including sensitive skin, and helps maintain the skin's natural moisture barrier for a fresh, clean feel.",
+    "price": 18.50,
+    "image": "https://images.unsplash.com/photo-1557008076-791771146740?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P007",
+    "name": "Smart Robot Vacuum Cleaner",
+    "category": "Home Appliances",
+    "shortDescription": "Automated cleaning with smart navigation.",
+    "description": "Connects to Wi-Fi for app control.",
+    "fullDescription": "The Smart Robot Vacuum Cleaner offers effortless floor cleaning with intelligent navigation and obstacle avoidance. Control it via a smartphone app, set schedules, and even integrate with voice assistants. Its powerful suction and long battery life ensure a thorough clean across various floor types.",
+    "price": 299.00,
+    "image": "https://images.unsplash.com/photo-1583856184852-5264b3c9b3e1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P008",
+    "name": "Men's Classic Denim Jeans",
+    "category": "Fashion",
+    "shortDescription": "Timeless style, comfortable fit.",
+    "description": "Durable denim for everyday wear.",
+    "fullDescription": "Our Men's Classic Denim Jeans are designed for comfort and style. Made from high-quality, durable denim, they offer a versatile look that can be dressed up or down. A timeless addition to any wardrobe, perfect for everyday wear.",
+    "price": 55.00,
+    "image": "https://images.unsplash.com/photo-1550220667-cf12a4d4b1a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P009",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "shortDescription": "Immersive audio experience, superior comfort.",
+    "description": "Blocks out distractions for clear sound.",
+    "fullDescription": "These Wireless Noise-Cancelling Headphones deliver exceptional audio quality and active noise cancellation, allowing you to immerse yourself in your music or calls without distractions. With comfortable earcups and a long-lasting battery, they're perfect for travel or everyday use.",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P010",
+    "name": "Yoga Mat with Carrying Strap",
+    "category": "Sports & Outdoors",
+    "shortDescription": "Non-slip surface for all yoga styles.",
+    "description": "Lightweight and easy to transport.",
+    "fullDescription": "This Yoga Mat offers excellent grip and cushioning for all your yoga and fitness practices. Made from eco-friendly materials, it provides a stable and comfortable surface. The included carrying strap makes it easy to roll up and transport to your studio or gym.",
+    "price": 24.95,
+    "image": "https://images.unsplash.com/photo-1560935560-aa22909191d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P011",
+    "name": "Organic Almond Butter",
+    "category": "Groceries",
+    "shortDescription": "Creamy, all-natural almond butter.",
+    "description": "Perfect for toast, smoothies, or baking.",
+    "fullDescription": "Our Organic Almond Butter is made from 100% roasted organic almonds, with no added sugars or oils. It's a rich source of protein and healthy fats, making it a delicious and nutritious addition to your breakfast, snacks, or favorite recipes.",
+    "price": 10.75,
+    "image": "https://images.unsplash.com/photo-1623838446219-5d43a6d7f02d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P012",
+    "name": "Classic Board Game Collection",
+    "category": "Toys & Games",
+    "shortDescription": "Hours of family fun with timeless games.",
+    "description": "Includes chess, checkers, and backgammon.",
+    "fullDescription": "This Classic Board Game Collection features three beloved games: Chess, Checkers, and Backgammon. Perfect for family game nights or friendly competitions, it provides hours of strategic fun and entertainment for all ages.",
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1574676508600-e8894d48a33a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P013",
+    "name": "Educated: A Memoir",
+    "category": "Books",
+    "shortDescription": "Bestselling memoir by Tara Westover.",
+    "description": "An inspiring story of self-invention and discovery.",
+    "fullDescription": "'Educated' by Tara Westover is a powerful and inspiring memoir about a young girl's journey from a fundamentalist Mormon family in rural Idaho to earning a PhD from Cambridge University. It explores themes of family, education, and the courage to forge one's own path.",
+    "price": 14.25,
+    "image": "https://images.unsplash.com/photo-1621217731778-9e5c531d0d9e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P014",
+    "name": "Vitamin C Serum",
+    "category": "Beauty & Personal Care",
+    "shortDescription": "Brightening and anti-aging serum.",
+    "description": "Evens skin tone and reduces fine lines.",
+    "fullDescription": "Our Vitamin C Serum is packed with powerful antioxidants to brighten your complexion, reduce hyperpigmentation, and diminish the appearance of fine lines and wrinkles. It promotes collagen production for firmer, more youthful-looking skin.",
+    "price": 27.00,
+    "image": "https://images.unsplash.com/photo-1608249675276-857e4e16d47f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P015",
+    "name": "Espresso Machine with Milk Frother",
+    "category": "Home Appliances",
+    "shortDescription": "Cafe-quality coffee at home.",
+    "description": "Brew espresso, lattes, and cappuccinos.",
+    "fullDescription": "Bring the barista experience to your kitchen with this Espresso Machine. It features a powerful pump for rich espresso extraction and an integrated milk frother for creamy lattes and cappuccinos. Easy to use and clean, it's perfect for coffee lovers.",
+    "price": 349.99,
+    "image": "https://images.unsplash.com/photo-1616654217343-b903027b4074?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P016",
+    "name": "Women's Floral Midi Dress",
+    "category": "Fashion",
+    "shortDescription": "Elegant and comfortable, perfect for spring.",
+    "description": "Flowy fabric with a flattering silhouette.",
+    "fullDescription": "This Women's Floral Midi Dress is a perfect blend of elegance and comfort. Featuring a beautiful floral print and a flattering midi length, it's ideal for casual outings, garden parties, or even semi-formal events. Made from lightweight, breathable fabric.",
+    "price": 68.00,
+    "image": "https://images.unsplash.com/photo-1524583196963-3ee7e61a2b1f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P017",
+    "name": "Portable Bluetooth Speaker",
+    "category": "Electronics",
+    "shortDescription": "Crisp audio on the go.",
+    "description": "Waterproof design, long battery life.",
+    "fullDescription": "Enjoy your music anywhere with this Portable Bluetooth Speaker. Its compact, waterproof design makes it ideal for outdoor adventures, and its powerful sound and long-lasting battery ensure hours of uninterrupted listening. Easy to pair with any Bluetooth-enabled device.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35f992a5d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P018",
+    "name": "Protein Powder - Vanilla",
+    "category": "Health & Wellness",
+    "shortDescription": "High-quality protein for muscle recovery.",
+    "description": "Delicious vanilla flavor, mixes easily.",
+    "fullDescription": "Our Vanilla Protein Powder is a premium blend designed to support muscle growth and recovery. With a rich vanilla taste and smooth texture, it mixes easily into shakes or smoothies. Ideal for athletes, fitness enthusiasts, or anyone looking to increase their protein intake.",
+    "price": 35.99,
+    "image": "https://images.unsplash.com/photo-1588661646274-13c5132a0c4f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P019",
+    "name": "Camping Tent - 4 Person",
+    "category": "Sports & Outdoors",
+    "shortDescription": "Spacious and easy to set up.",
+    "description": "Weather-resistant for comfortable camping.",
+    "fullDescription": "This 4-Person Camping Tent is designed for comfort and convenience on your outdoor adventures. It features a spacious interior, easy pitch design, and is made from durable, weather-resistant materials to keep you dry and comfortable in various conditions.",
+    "price": 120.00,
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P020",
+    "name": "Organic Extra Virgin Olive Oil",
+    "category": "Groceries",
+    "shortDescription": "Cold-pressed, rich in flavor.",
+    "description": "Ideal for cooking, dressings, and dipping.",
+    "fullDescription": "Our Organic Extra Virgin Olive Oil is cold-pressed from the finest olives, preserving its rich flavor and nutritional benefits. Perfect for sautéing, baking, salad dressings, or simply dipping with bread, it's a staple for any health-conscious kitchen.",
+    "price": 15.25,
+    "image": "https://images.unsplash.com/photo-1625867140808-164789d6e5a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P021",
+    "name": "Remote Control Car",
+    "category": "Toys & Games",
+    "shortDescription": "High-speed fun for all ages.",
+    "description": "Durable design, easy to control.",
+    "fullDescription": "Experience thrilling races with this Remote Control Car. Its durable construction can withstand bumps and crashes, while intuitive controls make it easy for beginners to master. Perfect for outdoor adventures or indoor play.",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1616781290379-05e80b2a7e78?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P022",
+    "name": "Atomic Habits",
+    "category": "Books",
+    "shortDescription": "Transform your life with small changes.",
+    "description": "Practical guide to building good habits.",
+    "fullDescription": "James Clear's 'Atomic Habits' provides a practical, actionable framework for improving every day. Learn how tiny changes in your daily routine can lead to remarkable results. This book is a must-read for anyone looking to build good habits and break bad ones.",
+    "price": 13.99,
+    "image": "https://images.unsplash.com/photo-1593027581699-db3f7b2e9e62?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P023",
+    "name": "Shea Butter Hand Cream",
+    "category": "Beauty & Personal Care",
+    "shortDescription": "Intensely moisturizing for dry hands.",
+    "description": "Non-greasy formula, quickly absorbed.",
+    "fullDescription": "This luxurious Shea Butter Hand Cream provides intense hydration for dry, chapped hands. Enriched with natural shea butter, it nourishes and protects, leaving your hands feeling soft and smooth without any greasy residue. Perfect for daily use.",
+    "price": 9.75,
+    "image": "https://images.unsplash.com/photo-1629837905106-a83f98c4b79b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P024",
+    "name": "Air Fryer",
+    "category": "Home Appliances",
+    "shortDescription": "Healthy frying with less oil.",
+    "description": "Versatile for roasting, baking, and grilling.",
+    "fullDescription": "The Air Fryer allows you to enjoy your favorite fried foods with significantly less oil. Its rapid air circulation technology ensures even cooking and a crispy finish. Beyond frying, it can also roast, bake, and grill, making it a versatile addition to any kitchen.",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1616781290379-05e80b2a7e78?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P025",
+    "name": "Unisex Hoodie",
+    "category": "Fashion",
+    "shortDescription": "Soft and comfortable everyday wear.",
+    "description": "Classic design, suitable for all genders.",
+    "fullDescription": "This Unisex Hoodie is crafted from a soft, fleece-lined fabric for ultimate comfort and warmth. Its timeless design and relaxed fit make it a versatile piece for casual wear, workouts, or layering. Available in a range of colors to suit your style.",
+    "price": 42.00,
+    "image": "https://images.unsplash.com/photo-1509659353907-887e07a16f2c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P026",
+    "name": "Smart Home Hub",
+    "category": "Electronics",
+    "shortDescription": "Central control for smart devices.",
+    "description": "Voice activated, compatible with many brands.",
+    "fullDescription": "The Smart Home Hub centralizes control of all your smart devices, from lighting to thermostats. With voice control capabilities and broad compatibility with popular smart home brands, it simplifies your daily routines and enhances your home's intelligence.",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1586521995544-245f7823f02e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P027",
+    "name": "Resistance Bands Set",
+    "category": "Health & Wellness",
+    "shortDescription": "Versatile for strength training and recovery.",
+    "description": "Multiple resistance levels for varied workouts.",
+    "fullDescription": "This Resistance Bands Set includes bands with varying levels of resistance, perfect for a wide range of exercises. From strength training and muscle toning to rehabilitation and stretching, these portable bands are ideal for home workouts or on-the-go fitness.",
+    "price": 22.50,
+    "image": "https://images.unsplash.com/photo-1549474274-b5f7e4e1a0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P028",
+    "name": "Hiking Backpack",
+    "category": "Sports & Outdoors",
+    "shortDescription": "Comfortable and spacious for day hikes.",
+    "description": "Multiple compartments, durable material.",
+    "fullDescription": "This Hiking Backpack is designed for comfort and functionality on your outdoor excursions. With ample storage, multiple compartments for organization, and a durable, water-resistant material, it's perfect for day hikes or short overnight trips.",
+    "price": 75.00,
+    "image": "https://images.unsplash.com/photo-1542601900-4b9e76161c56?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P029",
+    "name": "Gourmet Coffee Beans",
+    "category": "Groceries",
+    "shortDescription": "Premium whole bean coffee.",
+    "description": "Rich aroma and smooth flavor.",
+    "fullDescription": "Our Gourmet Coffee Beans are sourced from the finest coffee-growing regions, offering a rich aroma and smooth, balanced flavor. Perfect for brewing your favorite cup at home, these whole beans provide a truly exceptional coffee experience.",
+    "price": 16.99,
+    "image": "https://images.unsplash.com/photo-1559491799-d419d80d2873?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P030",
+    "name": "Kids' Art Supplies Kit",
+    "category": "Toys & Games",
+    "shortDescription": "Unleash creativity with a complete art set.",
+    "description": "Includes paints, brushes, and paper.",
+    "fullDescription": "This Kids' Art Supplies Kit provides everything young artists need to express themselves. It includes a variety of paints, brushes, crayons, markers, and paper, all stored in a convenient carrying case. Perfect for encouraging imagination and artistic development.",
+    "price": 28.50,
+    "image": "https://images.unsplash.com/photo-1547847427-04660e1d5220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P031",
+    "name": "Becoming",
+    "category": "Books",
+    "shortDescription": "Memoir by Michelle Obama.",
+    "description": "A deeply personal and inspiring autobiography.",
+    "fullDescription": "Michelle Obama's 'Becoming' is a powerful and candid memoir that chronicles her journey from childhood in Chicago to her years in the White House as First Lady. It's a story of self-discovery, resilience, and the importance of finding your voice.",
+    "price": 16.00,
+    "image": "https://images.unsplash.com/photo-1589998059171-ee29c20084ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P032",
+    "name": "Tea Tree Oil Shampoo",
+    "category": "Beauty & Personal Care",
+    "shortDescription": "Invigorating and clarifying for scalp.",
+    "description": "Natural ingredients, promotes healthy hair.",
+    "fullDescription": "Our Tea Tree Oil Shampoo is formulated with natural tea tree oil to cleanse and invigorate your scalp, leaving your hair feeling refreshed and healthy. It helps to remove product buildup and promotes a balanced scalp environment.",
+    "price": 14.00,
+    "image": "https://images.unsplash.com/photo-1620864386766-d419b787db80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P033",
+    "name": "Stand Mixer",
+    "category": "Home Appliances",
+    "shortDescription": "Powerful mixer for baking and cooking.",
+    "description": "Multiple speed settings, durable design.",
+    "fullDescription": "This Stand Mixer is a kitchen essential for any baker. With a powerful motor, multiple speed settings, and various attachments, it effortlessly handles everything from kneading dough to whipping cream, making your baking tasks easier and more enjoyable.",
+    "price": 199.00,
+    "image": "https://images.unsplash.com/photo-1588661646274-13c5132a0c4f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P034",
+    "name": "Women's Leather Handbag",
+    "category": "Fashion",
+    "shortDescription": "Stylish and spacious everyday bag.",
+    "description": "High-quality leather, multiple compartments.",
+    "fullDescription": "This Women's Leather Handbag combines elegance with practicality. Made from genuine leather, it features a spacious main compartment and multiple pockets to keep your essentials organized. Perfect for work, travel, or a stylish everyday accessory.",
+    "price": 89.00,
+    "image": "https://images.unsplash.com/photo-1584917865442-de79efde7ceb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P035",
+    "name": "Gaming Keyboard",
+    "category": "Electronics",
+    "shortDescription": "Responsive and customizable for gamers.",
+    "description": "Mechanical keys, RGB lighting.",
+    "fullDescription": "Elevate your gaming experience with this Gaming Keyboard. Featuring responsive mechanical keys for precise control, customizable RGB backlighting, and programmable macros, it's designed for competitive gamers who demand performance and style.",
+    "price": 75.00,
+    "image": "https://images.unsplash.com/photo-1587840134446-f94957e8419b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P036",
+    "name": "Fitness Tracker",
+    "category": "Health & Wellness",
+    "shortDescription": "Monitor activity, sleep, and heart rate.",
+    "description": "Smart notifications, long battery life.",
+    "fullDescription": "Stay on top of your health goals with this advanced Fitness Tracker. It monitors your daily activity, sleep patterns, and heart rate, providing valuable insights. With smart notifications and a long-lasting battery, it's your perfect health companion.",
+    "price": 60.00,
+    "image": "https://images.unsplash.com/photo-1506097444747-ae51a37a9355?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P037",
+    "name": "Outdoor Camping Chair",
+    "category": "Sports & Outdoors",
+    "shortDescription": "Compact and comfortable for outdoor events.",
+    "description": "Durable frame, easy to fold and carry.",
+    "fullDescription": "This Outdoor Camping Chair provides comfort and convenience for your outdoor activities. Its sturdy frame and durable fabric ensure long-lasting use, while its foldable design and included carrying bag make it easy to transport and store.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1510312305619-3221975e53e1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P038",
+    "name": "Organic Whole Wheat Pasta",
+    "category": "Groceries",
+    "shortDescription": "Healthy and delicious pasta alternative.",
+    "description": "Made from 100% organic durum wheat.",
+    "fullDescription": "Our Organic Whole Wheat Pasta offers a nutritious and flavorful alternative to traditional pasta. Made from 100% organic durum wheat, it's rich in fiber and provides a satisfying texture, perfect for your favorite sauces and dishes.",
+    "price": 4.50,
+    "image": "https://images.unsplash.com/photo-1599026419080-606013a290d2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P039",
+    "name": "STEM Robotics Kit",
+    "category": "Toys & Games",
+    "shortDescription": "Introduce kids to coding and engineering.",
+    "description": "Build and program your own robot.",
+    "fullDescription": "The STEM Robotics Kit provides an engaging way for kids to learn about coding, engineering, and problem-solving. With easy-to-follow instructions, they can build and program their own robot, fostering critical thinking and technological skills.",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1563461421-2a6c25a075c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P040",
+    "name": "The Alchemist",
+    "category": "Books",
+    "shortDescription": "Philosophical novel by Paulo Coelho.",
+    "description": "A fable about following your dreams.",
+    "fullDescription": "Paulo Coelho's 'The Alchemist' is an international bestseller that tells the mystical story of Santiago, an Andalusian shepherd boy who journeys in search of a hidden treasure. It's a timeless tale about destiny, self-discovery, and following your personal legend.",
+    "price": 11.50,
+    "image": "https://images.unsplash.com/photo-1587840134446-f94957e8419b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P041",
+    "name": "Charcoal Face Mask",
+    "category": "Beauty & Personal Care",
+    "shortDescription": "Detoxifying and purifying for clear skin.",
+    "description": "Draws out impurities and minimizes pores.",
+    "fullDescription": "Our Charcoal Face Mask is formulated with activated charcoal to deeply cleanse and purify your skin. It effectively draws out toxins and impurities, minimizes the appearance of pores, and leaves your complexion looking refreshed and clearer.",
+    "price": 16.00,
+    "image": "https://images.unsplash.com/photo-1574345437936-e04f05b1c0b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P042",
+    "name": "Handheld Garment Steamer",
+    "category": "Home Appliances",
+    "shortDescription": "Quick and easy wrinkle removal.",
+    "description": "Compact and portable for travel.",
+    "fullDescription": "The Handheld Garment Steamer offers a fast and efficient way to smooth out wrinkles from your clothes. Its compact and lightweight design makes it perfect for quick touch-ups at home or for keeping your garments fresh while traveling.",
+    "price": 35.00,
+    "image": "https://images.unsplash.com/photo-1616781290379-05e80b2a7e78?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P043",
+    "name": "Men's Casual Sneakers",
+    "category": "Fashion",
+    "shortDescription": "Comfortable and stylish for everyday wear.",
+    "description": "Lightweight design, breathable material.",
+    "fullDescription": "These Men's Casual Sneakers offer a perfect blend of comfort and style. With a lightweight design and breathable material, they're ideal for everyday wear, providing excellent support and a fashionable look for any casual occasion.",
+    "price": 60.00,
+    "image": "https://images.unsplash.com/photo-1552504958-b63309e3e3b5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P044",
+    "name": "Portable Power Bank",
+    "category": "Electronics",
+    "shortDescription": "Charge devices on the go.",
+    "description": "High capacity, fast charging.",
+    "fullDescription": "Never run out of battery again with this Portable Power Bank. Its high capacity can charge your smartphone multiple times, and its fast-charging technology ensures quick power-ups. Compact and lightweight, it's an essential for travel and daily commutes.",
+    "price": 30.00,
+    "image": "https://images.unsplash.com/photo-1600008502848-289b4f9a1e0f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P045",
+    "name": "Essential Oil Diffuser",
+    "category": "Health & Wellness",
+    "shortDescription": "Create a calming atmosphere.",
+    "description": "Ultrasonic technology, ambient light options.",
+    "fullDescription": "This Essential Oil Diffuser uses ultrasonic technology to disperse a fine mist of your favorite essential oils, creating a soothing and aromatic environment. With various ambient light options and a quiet operation, it's perfect for relaxation, sleep, or enhancing your mood.",
+    "price": 25.00,
+    "image": "https://images.unsplash.com/photo-1563858004558-52c1e28987b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P046",
+    "name": "Bicycle Helmet",
+    "category": "Sports & Outdoors",
+    "shortDescription": "Essential safety gear for cyclists.",
+    "description": "Lightweight, adjustable fit, ventilated.",
+    "fullDescription": "Prioritize your safety with this Bicycle Helmet. Designed for comfort and protection, it features a lightweight construction, adjustable fit system, and ample ventilation to keep you cool. Suitable for road cycling, mountain biking, and daily commutes.",
+    "price": 45.00,
+    "image": "https://images.unsplash.com/photo-1572111195679-6a3f12c6a0b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P047",
+    "name": "Assorted Nuts & Seeds Mix",
+    "category": "Groceries",
+    "shortDescription": "Healthy snack for energy and nutrition.",
+    "description": "Rich in protein, fiber, and healthy fats.",
+    "fullDescription": "Our Assorted Nuts & Seeds Mix is a nutritious and satisfying snack packed with essential vitamins and minerals. It's a great source of protein, fiber, and healthy fats, perfect for on-the-go energy or as an addition to your meals.",
+    "price": 9.99,
+    "image": "https://images.unsplash.com/photo-1606798030225-b097b6e92c4a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P048",
+    "name": "Jigsaw Puzzle - 1000 Pieces",
+    "category": "Toys & Games",
+    "shortDescription": "Challenging and rewarding pastime.",
+    "description": "Beautiful landscape image, high-quality pieces.",
+    "fullDescription": "Immerse yourself in this captivating 1000-piece Jigsaw Puzzle. Featuring a stunning landscape image and precision-cut pieces, it offers hours of engaging entertainment and a satisfying sense of accomplishment upon completion. Perfect for individuals or family fun.",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-159491799-d419d80d2873?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P049",
+    "name": "Dune (Paperback)",
+    "category": "Books",
+    "shortDescription": "Epic science fiction novel by Frank Herbert.",
+    "description": "A timeless classic of space opera.",
+    "fullDescription": "Frank Herbert's 'Dune' is a monumental work of science fiction, set in a distant future amidst a sprawling galactic empire. It tells the complex story of Paul Atreides and his destiny on the desert planet Arrakis, exploring themes of politics, religion, and ecology.",
+    "price": 12.00,
+    "image": "https://images.unsplash.com/photo-1613271389814-c13f637f9e8a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "pid": "P050",
+    "name": "Anti-Dandruff Shampoo",
+    "category": "Beauty & Personal Care",
+    "shortDescription": "Effective relief for flaky scalp.",
+    "description": "Soothes itchiness and controls dandruff.",
+    "fullDescription": "This Anti-Dandruff Shampoo is specifically formulated to provide effective relief from a flaky and itchy scalp. Its active ingredients work to control dandruff while leaving your hair clean, soft, and manageable.",
+    "price": 11.25,
+    "image": "https://images.unsplash.com/photo-1542601900-4b9e76161c56?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
