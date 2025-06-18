@@ -41,9 +41,6 @@ export default function AboutPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-16">
         <div>
-          <Image
-            
-          />
           <img src="https://images.unsplash.com/photo-1688561809321-e51e8a4d6651?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="About TechHub"
             width={600}

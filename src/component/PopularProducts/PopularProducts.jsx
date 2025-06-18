@@ -13,13 +13,14 @@ import './styles.css';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 const PopularProducts = () => {
-  const [popularProducts, setPopularProducts] = useState([])
+  const [products, setProducts] = useState([])
   useEffect(() => {
-    fetch("PopularProducts.json")
+    fetch("allProducts.json")
       .then(res => res.json())
-      .then(data => setPopularProducts(data))
+      .then(data => setProducts(data))
   }, [])
- 
+  const popularProducts = products.filter(product => product.bestSelling);
+
 
   return (
     <div>
@@ -54,10 +55,8 @@ const PopularProducts = () => {
       >
         {
           popularProducts.map((product, idx) => (
-
             <SwiperSlide key={idx}>
               <div className="rounded-xl border border-blue-400 w-full shadow-md overflow-hidden flex flex-col h-[420px] m-3 transition hover:shadow-lg bg-blue-100 hover:bg-blue-200 p-2 ">
-
                 {/* Fixed image height */}
                 <div className="h-48 w-full overflow-hidden">
                   <img
@@ -85,7 +84,6 @@ const PopularProducts = () => {
                 </div>
               </div>
             </SwiperSlide>
-
           ))
         }
 
