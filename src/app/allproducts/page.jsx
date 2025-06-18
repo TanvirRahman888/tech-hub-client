@@ -28,7 +28,7 @@ const AllProducts = () => {
           <div key={product.pid} className="border rounded-lg p-4 shadow hover:shadow-lg transition">
             <img src={product.image} alt={product.name} className="w-full h-40 object-cover rounded" />
             <h2 className="mt-4 text-xl font-semibold">{product.name}</h2>
-            <p className="text-gray-700 mt-1">Price: ৳{product.price}</p>
+            <p className="text-gray-700 mt-1">Price: ${product.price}</p>
             <button className="mt-3 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">
               View Details
             </button>
