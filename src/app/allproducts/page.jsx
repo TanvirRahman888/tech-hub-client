@@ -7,11 +7,13 @@ const AllProducts = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch()
-
+    fetch("./allProducts.json")
+    .then(res => res.json())
+      .then(data => setProducts(data))
+    console.log(products);
 
     setTimeout(() => {
-      setProducts(fakeProducts);
+    //   setProducts(fakeProducts);
       setLoading(false);
     }, 1000);
   }, []);
@@ -23,7 +25,7 @@ const AllProducts = () => {
       <h1 className="text-3xl font-bold mb-6 text-center">All Products</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="border rounded-lg p-4 shadow hover:shadow-lg transition">
+          <div key={product.pid} className="border rounded-lg p-4 shadow hover:shadow-lg transition">
             <img src={product.image} alt={product.name} className="w-full h-40 object-cover rounded" />
             <h2 className="mt-4 text-xl font-semibold">{product.name}</h2>
             <p className="text-gray-700 mt-1">Price: ৳{product.price}</p>
