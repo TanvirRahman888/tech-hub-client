@@ -63,7 +63,7 @@ const AllProducts = ({ onViewDetails }) => { // Added onViewDetails prop
                             <Link href={`/products/${product.pid}`} className="flex-1 bg-blue-600 text-white py-2 rounded text-center hover:bg-blue-700 transition">
                                 View Details
                             </Link>
-                            <AddToCart></AddToCart>
+                            <AddToCart pid={product.pid}></AddToCart>
                         </div>
                     </div>
                 ))}

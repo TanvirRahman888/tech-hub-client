@@ -65,7 +65,7 @@ const ProductDetailsPage = () => {
                             </span>
                         )}
                         <div className="mt-6">
-                            <AddToCart></AddToCart>
+                            <AddToCart pid={pid}></AddToCart>
                         </div>
                     </div>
 
