@@ -1,5 +1,7 @@
 'use client';
 import { useContext, useState } from 'react';
+import { useRouter } from 'next/navigation';
+
 
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { app } from "../firebase/config";
@@ -15,25 +17,45 @@ export default function RegisterPage() {
     const [password, setPassword] = useState('');
 
     const auth = getAuth(app);
-    const { createUser  } = useContext(AuthContext)
+    const { createUser } = useContext(AuthContext)
+
+    const router = useRouter();
 
     const handleRegister = (e) => {
         e.preventDefault();
         // createUserWithEmailAndPassword
-        createUser(email,password)
-        .then(result =>{
-            console.log(result.user);
-        })
-        .catch(error=>{
-            console.error(error)
-        })
+        createUser(email, password)
+            .then(result => {
+                console.log(result.user);
+
+                //add register user in database
+
+                fetch('http://localhost:5000/user', {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(result.user),
+
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data)
+                        if (data.insertedId) {
+                            alert("User Added Successfully!")
+                            router.push('/'); 
+                        }
+                    });
+            })
+            .catch(error => {
+                console.error(error)
+            })
 
 
     };
 
     const googleProvider = new GoogleAuthProvider();
     const handleGoogleRegister = () => {
-        console.log("Google Register Clicked");
         signInWithPopup(auth, googleProvider)
             .then((result) => {
                 const credential = GoogleAuthProvider.credentialFromResult(result);

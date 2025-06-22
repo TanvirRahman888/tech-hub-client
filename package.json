@@ -13,6 +13,7 @@
     "firebase": "^11.9.1",
     "flowbite-react": "^0.11.8",
     "lucide-react": "^0.517.0",
+    "mongodb": "^6.17.0",
     "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

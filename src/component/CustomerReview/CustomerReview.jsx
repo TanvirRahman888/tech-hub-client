@@ -29,15 +29,13 @@ const CustomerReview = () => {
                     delay: 3500,
                     disableOnInteraction: false,
                 }}
-                pagination={{
-                    clickable: true,
-                }}
+                
                 breakpoints={{
                     640: { slidesPerView: 1 },
                     768: { slidesPerView: 2 },
                     1024: { slidesPerView: 3 },
                 }}
-                modules={[Pagination, Autoplay]}
+                modules={[ Autoplay]}
                 className="w-full  mx-auto"
             >
                 {reviews.map((review, idx) => (
