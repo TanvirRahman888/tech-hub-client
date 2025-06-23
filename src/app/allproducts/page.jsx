@@ -4,14 +4,15 @@ import AddToCart from '@/component/AddToCart/AddToCart';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const AllProducts = ({ onViewDetails }) => { // Added onViewDetails prop
-    const [products, setProducts] = useState([]);
+const AllProducts = ({ onViewDetails }) => { 
+    
     const [loading, setLoading] = useState(true);
+    const [products, setProducts]=useState([])
     const [currentPage, setCurrentPage] = useState(1);
     const productsPerPage = 21;
 
     useEffect(() => {
-        fetch('allProducts.json')
+        fetch('http://localhost:5000/products')
             .then(res => res.json())
             .then(data => setProducts(data))
         setLoading(false);
