@@ -43,7 +43,7 @@ export default function RegisterPage() {
                         console.log(data)
                         if (data.insertedId) {
                             alert("User Added Successfully!")
-                            router.push('/'); 
+                            router.push('/');
                         }
                     });
             })

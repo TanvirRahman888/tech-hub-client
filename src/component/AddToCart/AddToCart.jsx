@@ -17,7 +17,21 @@ const AddToCart = ({ pid }) => {
 
         console.log("Cart Item:", cartItem);
 
-        // You can now send `cartItem` to your backend
+        //add cart items in database
+        fetch("http://localhost:5000/cartitems",{
+            method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(cartItem),
+        })
+        .then(res=>res.json())
+        .then(data=>{
+             console.log(data)
+                        if (data.insertedId) {
+                            alert("Item Add to Cart Successfully!")
+                        }
+        })
     };
 
 
