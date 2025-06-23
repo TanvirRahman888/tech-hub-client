@@ -127,7 +127,7 @@ const NavBar = () => {
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 className="flex items-center gap-2 text-sm font-medium text-gray-800 dark:text-white"
               >
-                {user.email}
+                {user.displayName ? user.displayName : user.email}
                 <ChevronDown className="w-4 h-4" />
               </button>
               {dropdownOpen && (
