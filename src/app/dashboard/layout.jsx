@@ -1,11 +1,25 @@
 'use client';
 import DashboardNavbar from '@/component/dashboard/DashboardNavbar';
 import DashboardSidebar from '@/component/dashboard/DashboardSidebar';
-import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { useContext, useEffect, useState } from 'react';
+import { AuthContext } from '../provider/AuthProvider';
 
 
 export default function DashboardLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const { user, loading } = useContext(AuthContext);
+  const router = useRouter();
+  useEffect(() => {
+    if (!loading && !user) {
+      router.push('/login?callbackUrl=/dashboard');
+    }
+  }, [user, loading, router]);
+
+  if (loading || !user) {
+    return <div className="text-center mt-10 text-lg">Loading dashboard...</div>;
+  }
+
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
 
