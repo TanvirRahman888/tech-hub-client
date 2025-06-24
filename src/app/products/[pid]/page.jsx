@@ -10,13 +10,14 @@ const ProductDetailsPage = () => {
     const { pid } = useParams();
     const router = useRouter();
     const { user, loading } = useContext(AuthContext);
+    
 
     const [product, setProduct] = useState(null);
     const [recommended, setRecommended] = useState([]);
     const [sidebarProducts, setSidebarProducts] = useState([]);
     const [productLoading, setProductLoading] = useState(true);
 
-    // ✅ Redirect if user is not logged in
+    // Redirect if user is not logged in
     useEffect(() => {
         if (!loading && !user) {
             router.push(`/login?callbackUrl=/products/${pid}`);
@@ -24,7 +25,7 @@ const ProductDetailsPage = () => {
     }, [user, loading, pid, router]);
 
 
-    // ✅ Fetch product data if user is logged in
+    // Fetch product data if user is logged in
     useEffect(() => {
         if (!user) return;
 
