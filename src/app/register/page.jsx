@@ -17,7 +17,7 @@ export default function RegisterPage() {
     const [password, setPassword] = useState('');
 
     const auth = getAuth(app);
-    const { createUser } = useContext(AuthContext)
+    const { createUser, updateUserProfile } = useContext(AuthContext)
 
     const router = useRouter();
 
@@ -34,7 +34,14 @@ export default function RegisterPage() {
                     createdAt: new Date(),
                     role: 'buyer',
                 };
-
+                updateUserProfile({ displayName: name, photoURL: profileImage })
+                    .then(() => {
+                        alert("Profile Updated")
+                    }).catch((error) => {
+                        alert(error.message);
+                        alert("Profile is not Updated")
+                    });
+                //add user to database
                 fetch('http://localhost:5000/user', {
                     method: "POST",
                     headers: {
