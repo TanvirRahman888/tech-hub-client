@@ -23,50 +23,70 @@ export default function RegisterPage() {
 
     const handleRegister = (e) => {
         e.preventDefault();
-        // createUserWithEmailAndPassword
+
         createUser(email, password)
             .then(result => {
-                console.log(result.user);
-
-                //add register user in database
+                const firebaseUser = result.user;
+                const saveUser = {
+                    name: name,
+                    email: firebaseUser.email,
+                    profileImage: profileImage,
+                    createdAt: new Date(),
+                    role: 'buyer',
+                };
 
                 fetch('http://localhost:5000/user', {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
                     },
-                    body: JSON.stringify(result.user),
-
+                    body: JSON.stringify(saveUser),
                 })
                     .then(res => res.json())
                     .then(data => {
-                        console.log(data)
-                        if (data.insertedId) {
-                            alert("User Added Successfully!")
-                            router.push('/');
-                        }
+                        console.log(data);
+                        alert("User added successfully!");
+                        router.push('/');
                     });
             })
-            .catch(error => {
-                console.error(error)
-            })
-
-
+            .catch((error) => {
+                console.error(error);
+                alert(error.message)
+            });
     };
 
     const googleProvider = new GoogleAuthProvider();
-    const handleGoogleRegister = () => {
+    const handleGoogleLogIn = () => {
         signInWithPopup(auth, googleProvider)
             .then((result) => {
-                const credential = GoogleAuthProvider.credentialFromResult(result);
-                const token = credential.accessToken;
                 const user = result.user;
                 console.log("Google sign-in successful", user);
-            }).catch((error) => {
+                const saveUser = {
+                    name: user.displayName,
+                    email: user.email,
+                    profileImage: user.photoURL,
+                    createdAt: new Date(),
+                    role: 'buyer',
+                };
+
+                fetch('http://localhost:5000/user', {
+                    method: 'POST',
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(saveUser)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log("User saved to DB:", data);
+                        router.push('/');
+                    })
+                    .catch(err => console.error("DB Save Error:", err));
+            })
+
+            .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-                const email = error.customData.email;
-                const credential = GoogleAuthProvider.credentialFromError(error);
             });
 
     };
@@ -139,7 +159,7 @@ export default function RegisterPage() {
 
                 {/* Google Register Button */}
                 <button
-                    onClick={handleGoogleRegister}
+                    onClick={handleGoogleLogIn}
                     className="flex items-center justify-center w-full border border-gray-300 rounded-md px-4 py-2 hover:bg-gray-50 transition"
                 >
                     <FcGoogle className="text-xl mr-2" />

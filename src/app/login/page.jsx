@@ -28,24 +28,51 @@ export default function LoginPage() {
             })
             .catch((error) => {
                 console.error(error.message);
+                alert(error.message)
             });
     };
 
     const handleGoogleLogin = () => {
         console.log("Google Login Clicked");
         signInWithPopup(auth, googleProvider)
-                    .then((result) => {
-                        const credential = GoogleAuthProvider.credentialFromResult(result);
-                        const token = credential.accessToken;
-                        const user = result.user;
-                        console.log("Google sign-in successful", user);
-                        router.push(callbackUrl); 
-                    }).catch((error) => {
-                        const errorCode = error.code;
-                        const errorMessage = error.message;
-                        const email = error.customData.email;
-                        const credential = GoogleAuthProvider.credentialFromError(error);
+            .then((result) => {
+                const credential = GoogleAuthProvider.credentialFromResult(result);
+                const token = credential.accessToken;
+                const user = result.user;
+                console.log("Google sign-in successful", user);
+                router.push(callbackUrl);
+                //add user to database
+                const saveUser = {
+                    name: user.displayName,
+                    email: user.email,
+                    profileImage: user.photoURL,
+                    createdAt: new Date(),
+                    role: 'buyer',
+                };
+
+                fetch('http://localhost:5000/user', {
+                    method: 'POST',
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(saveUser)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log("User saved to DB:", data);
+                        router.push('/');
+                    })
+                    .catch(err => {
+                        console.error("DB Save Error:", err)
+                        
                     });
+            })
+
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                alert(errorMessage)
+            });
     };
 
     return (

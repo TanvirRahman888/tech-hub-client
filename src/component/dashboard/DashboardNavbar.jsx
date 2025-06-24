@@ -14,7 +14,7 @@ const DashboardNavbar = ({ onMenuClick }) => {
         <button onClick={onMenuClick} className="md:hidden text-gray-800 dark:text-white">
           <Menu className="w-6 h-6" />
         </button>
-        <h1 className="text-xl font-bold text-gray-800 dark:text-white">Dashboard</h1>
+        {/* <h1 className="text-xl font-bold text-gray-800 dark:text-white">Dashboard</h1> */}
       </div>
     </header>
   );

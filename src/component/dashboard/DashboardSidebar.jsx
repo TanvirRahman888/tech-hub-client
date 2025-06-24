@@ -4,8 +4,9 @@ import { usePathname } from 'next/navigation';
 
 const links = [
   { name: 'Dashboard', href: '/dashboard' },
+  { name: 'All Users', href: '/dashboard/users' },
   { name: 'Products', href: '/dashboard/products' },
-  { name: 'Settings', href: '/dashboard/settings' },
+  { name: 'Add Product', href: '/dashboard/addproduct' },
 ];
 
 const DashboardSidebar = ({ isOpen }) => {
@@ -13,7 +14,7 @@ const DashboardSidebar = ({ isOpen }) => {
 
   return (
     <aside
-      className={`fixed md:static z-50 top-0 left-0 h-full w-64 bg-white dark:bg-gray-800 shadow-md transform transition-transform duration-300 ease-in-out
+      className={`fixed md:static z-50 top-0 left-0 h-screen w-64 bg-white dark:bg-gray-800 shadow-md transform transition-transform duration-300 ease-in-out
         ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}
     >
       <div className="p-4 text-xl font-bold text-gray-800 dark:text-white">Dashboard</div>
