@@ -13,6 +13,7 @@ const ProductDetailsPage = () => {
     
 
     const [product, setProduct] = useState(null);
+    // const [cartItem, setCartItem] = useState(null);
     const [recommended, setRecommended] = useState([]);
     const [sidebarProducts, setSidebarProducts] = useState([]);
     const [productLoading, setProductLoading] = useState(true);
@@ -66,7 +67,7 @@ const ProductDetailsPage = () => {
                             </span>
                         )}
                         <div className="mt-6">
-                            <AddToCart pid={pid}></AddToCart>
+                            <AddToCart product={product}></AddToCart>
                         </div>
                     </div>
 

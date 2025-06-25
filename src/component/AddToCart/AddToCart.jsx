@@ -3,17 +3,18 @@ import { AuthContext } from "@/app/provider/AuthProvider";
 import { useContext } from "react";
 
 
-const AddToCart = ({ pid }) => {
+const AddToCart = ({ product }) => {
 
     const { user } = useContext(AuthContext);
-
+    console.log(product);
     const addToCart = () => {
         if (!user) {
             alert("You must be logged in to add items to your cart.");
             return;
         }
+        const {pid, name,category,price, image  }=product;
         const userEmail = user.email;
-        const cartItem = { userEmail, pid };
+        const cartItem = { userEmail,pid, name,category,price, image };
 
         console.log("Cart Item:", cartItem);
 
