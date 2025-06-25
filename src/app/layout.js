@@ -3,6 +3,7 @@ import "./globals.css";
 import NavBar from "@/component/navbar/NavBar";
 import Footer from "@/component/Footer/Footer";
 import AuthProvider from "./provider/AuthProvider";
+import ReactQueryProvider from "./provider/ReactQueryProvider";
 
 
 
@@ -28,9 +29,11 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased mx-auto container mt-[69px]`}
       >
         <AuthProvider>
-          <NavBar></NavBar>
-          {children}
-          <Footer></Footer>
+          <ReactQueryProvider>
+            <NavBar></NavBar>
+            {children}
+            <Footer></Footer>
+          </ReactQueryProvider>
         </AuthProvider>
 
       </body>
