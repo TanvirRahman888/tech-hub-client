@@ -15,6 +15,7 @@ const fetchCartItems = async (email) => {
 const NavBar = () => {
   const pathname = usePathname();
   const { user, logOut } = useContext(AuthContext);
+  // console.log(user.photoURL);
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -94,13 +95,14 @@ const NavBar = () => {
             alt="TechHub Logo"
           />
         </Link>
-
+        
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700"
         >
-          {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {menuOpen ? <X className="w-6 h-6" /> : <img src={user.photoURL} alt="" className='w-7 rounded-full '/>}
         </button>
+        
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center md:space-x-8 md:order-1">
@@ -139,6 +141,7 @@ const NavBar = () => {
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 className="flex items-center gap-2 text-sm font-medium text-gray-800 dark:text-white"
               >
+                <img src={user.photoURL} alt="" className='w-7 rounded-full '/>
                 {user.displayName || user.email}
                 <ChevronDown className="w-4 h-4" />
               </button>
@@ -190,6 +193,7 @@ const NavBar = () => {
                 </Link>
               </li>
             )}
+            
           </ul>
 
           <div className="mt-4 border-t pt-3 border-gray-200 dark:border-gray-700 flex flex-col gap-2" ref={mobileDropdownRef}>
