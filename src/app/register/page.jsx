@@ -71,7 +71,7 @@ export default function RegisterPage() {
                 const saveUser = {
                     name: user.displayName,
                     email: user.email,
-                    profileImage: user.photoURL,
+                    profileImage: user?.photoURL,
                     createdAt: new Date(),
                     role: 'buyer',
                 };

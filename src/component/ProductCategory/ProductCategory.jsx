@@ -18,10 +18,10 @@ const ProductCategory = () => {
       <hr className="mb-4" />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {categories.map((cat, index) => (
-          <div key={index} className="border border-blue-400 p-4 rounded shadow bg-blue-100 hover:shadow-lg hover:bg-blue-200 transition">
+          <div key={index} className="border border-blue-400 p-4 rounded shadow  hover:shadow-lg transition">
             <img src={cat.image} alt={cat.category} className="w-full h-40 object-cover mb-2 rounded" />
             <h3 className="text-lg font-semibold text-center">{cat.category}</h3>
-            <p className="text-sm text-gray-600 text-center">{cat.description}</p>
+            <p className="text-sm text-center">{cat.description}</p>
           </div>
         ))}
       </div>

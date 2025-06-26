@@ -24,11 +24,11 @@ const PopularProducts = () => {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4 text-center">Check Products by Categories</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">Popular Products</h2>
       <hr />
       <Swiper
         slidesPerView={1}
-        spaceBetween={10}
+        spaceBetween={5}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -56,7 +56,7 @@ const PopularProducts = () => {
         {
           popularProducts.map((product, idx) => (
             <SwiperSlide key={idx}>
-              <div className="rounded-xl border border-blue-400 w-full shadow-md overflow-hidden flex flex-col h-[420px] m-3 transition hover:shadow-lg bg-blue-100 hover:bg-blue-200 p-2 ">
+              <div className="rounded-xl border w-full shadow-md overflow-hidden flex flex-col h-[420px] m-3 transition hover:shadow-lg  p-2 ">
                 {/* Fixed image height */}
                 <div className="h-48 w-full overflow-hidden">
                   <img
@@ -69,9 +69,9 @@ const PopularProducts = () => {
                 {/* Card Body */}
                 <div className="p-4 flex flex-col justify-between flex-grow">
                   <div>
-                    <p className="text-xs uppercase text-gray-400 mb-1">{product.category}</p>
+                    <p className="text-xs uppercase  mb-1">{product.category}</p>
                     <h2 className="text-lg font-semibold text-gray-800 truncate" title={product.name}>{product.name}</h2>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-2 h-[38px]">{product.shortDescription}</p>
+                    <p className="text-sm mt-1 line-clamp-2 h-[38px]">{product.shortDescription}</p>
                   </div>
 
                   {/* Price + Button */}
